@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="451.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kalkulator.FXMLDocumentController">
+    <children>
+        <Button fx:id="CE" layoutX="14.0" layoutY="91.0" onAction="#cleare" prefHeight="53.0" prefWidth="65.0" text="CE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+        <Label fx:id="label" layoutX="101.0" layoutY="420.0" minHeight="15.0" minWidth="69" prefHeight="15.0" prefWidth="123.0" text="Miftahul Asror Regowo" />
+      <Button fx:id="C" layoutX="91.0" layoutY="91.0" onAction="#clear" prefHeight="53.0" prefWidth="65.0" text="C" />
+      <Button fx:id="back" layoutX="169.0" layoutY="91.0" onAction="#back" prefHeight="53.0" prefWidth="65.0" text="Back" />
+      <Button fx:id="bagi" layoutX="245.0" layoutY="91.0" onAction="#bagi" prefHeight="53.0" prefWidth="65.0" text="÷" />
+      <Button fx:id="tujuh" layoutX="14.0" layoutY="158.0" onAction="#tujuh" prefHeight="53.0" prefWidth="65.0" text="7" />
+      <Button fx:id="delapan" layoutX="91.0" layoutY="158.0" onAction="#delapan" prefHeight="53.0" prefWidth="65.0" text="8" />
+      <Button fx:id="sembilan" layoutX="169.0" layoutY="158.0" onAction="#sembilan" prefHeight="53.0" prefWidth="65.0" text="9" />
+      <Button fx:id="kali" layoutX="245.0" layoutY="158.0" onAction="#kali" prefHeight="53.0" prefWidth="65.0" text="x" />
+      <Button fx:id="empat" layoutX="14.0" layoutY="225.0" onAction="#empat" prefHeight="53.0" prefWidth="65.0" text="4" />
+      <Button fx:id="lima" layoutX="91.0" layoutY="225.0" onAction="#lima" prefHeight="53.0" prefWidth="65.0" text="5" />
+      <Button fx:id="enam" layoutX="169.0" layoutY="225.0" onAction="#enam" prefHeight="53.0" prefWidth="65.0" text="6" />
+      <Button fx:id="kurang" layoutX="245.0" layoutY="225.0" onAction="#kurang" prefHeight="53.0" prefWidth="65.0" text="-" />
+      <Button fx:id="satu" layoutX="14.0" layoutY="291.0" onAction="#satu" prefHeight="53.0" prefWidth="65.0" text="1" />
+      <Button fx:id="dua" layoutX="91.0" layoutY="291.0" onAction="#dua" prefHeight="53.0" prefWidth="65.0" text="2" />
+      <Button fx:id="tiga" layoutX="169.0" layoutY="291.0" onAction="#tiga" prefHeight="53.0" prefWidth="65.0" text="3" />
+      <Button fx:id="tambah" layoutX="245.0" layoutY="291.0" onAction="#tambah" prefHeight="53.0" prefWidth="65.0" text="+" />
+      <Button fx:id="positifnegatif" layoutX="14.0" layoutY="357.0" onAction="#positifnegatif" prefHeight="53.0" prefWidth="65.0" text="+/-" />
+      <Button fx:id="nol" layoutX="91.0" layoutY="357.0" onAction="#nol" prefHeight="53.0" prefWidth="65.0" text="0" />
+      <Button fx:id="titik" layoutX="169.0" layoutY="357.0" onAction="#titik" prefHeight="53.0" prefWidth="65.0" text="." />
+      <Button fx:id="samadengan" layoutX="245.0" layoutY="357.0" onAction="#samadengan" prefHeight="53.0" prefWidth="65.0" text="=" />
+      <TextField fx:id="Tampilan" layoutX="17.0" layoutY="23.0" prefHeight="54.0" prefWidth="292.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+    </children>
+</AnchorPane>
